@@ -103,7 +103,7 @@ h1 {
 .socialmedia {
     height: 50px;
     width: 50px;
-    animation: bounce 2s 2s;
+    animation: bounce 1s 5s;
 }
 
 @keyframes bounce {
@@ -137,6 +137,7 @@ h1 {
 }
 
 .footer h3 {
+    
     border-style: solid;
     border-color: aqua;
     display: flex;
@@ -147,6 +148,41 @@ h1 {
     padding-bottom: 20px;
     margin-bottom: 0%; */
     font-size: larger;   
+}
+
+.footer1 {
+    bottom: 0%;
+    width: 100%;
+    position: absolute;
+    border-style: solid;
+    border-color: aqua;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0%; */
+    font-size: larger;
+}
+
+.footer2 {
+    bottom: 0px;
+    width: 100%;
+    position: absolute;
+    border-style: solid;
+    border-color: aqua;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0%;
+    font-size: larger;
+    flex-shrink: 0;
+    position: relative;
 }
 
 .wordpress {
@@ -210,6 +246,7 @@ button {
     background-color: black;
     border-style: solid;
     border-color: aqua;
+    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -285,3 +322,66 @@ button {
     animation: fadeIn 1s ease-in forwards;
     margin-top: 20%;
 }
+
+.container4 {
+    background-color: black;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.sandwich {
+    width: 300px;
+}
+
+.sandwiches {
+    width: 400px;
+}
+
+@-webkit-keyframes blinker {
+    from { opacity: 1.0; }
+    to { opacity: 0.0; }
+  }
+  
+  .flash {
+    -webkit-animation-name: blinker;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: cubic-bezier(.5, 0, 1, 1);
+    -webkit-animation-duration: 1.7s;
+  }
+
+.card4 {
+    border: 1vh solid;
+    border-color: aqua;
+    background-color: black;
+    color: white;
+    
+    align-items: center;
+    justify-content: center;
+    margin-left: 50%;
+    margin-right: 50%;
+    ;
+    
+}
+
+#shrek {
+    width: 270px;
+}
+
+.container5 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+
+
+
