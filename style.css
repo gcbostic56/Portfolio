@@ -146,29 +146,11 @@ h1 {
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-bottom: 0%; */
+    margin-bottom: 0%;
     font-size: larger;   
 }
 
 .footer1 {
-    bottom: 0%;
-    width: 100%;
-    position: fixed;
-    border-style: solid;
-    border-color: aqua;
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-bottom: 0%;
-    font-size: larger;
-    position: relative;
-    flex-shrink: 0;
-}
-
-.footer2 {
     bottom: 0px;
     width: 100%;
     position: absolute;
@@ -232,16 +214,22 @@ h1 {
 
 .dropdown {
     text-align: center;
+    width: 40vh;
 }
 
 button {
     transform: scale(1.5);
     background-color: aqua;
+    width: 30vh;
 }
+
+
+
 
 .dropdown-item {
     background: aqua;
     font-size: larger;
+    width: 40vh;
 }
 
 .container1 {
@@ -260,9 +248,14 @@ button {
 
 .div-dropdown {
     align-content: center;
+    width: 40vh;
+}
+
+.dropdown {
+    width: 40vh;
 }
 .picture {
-    width: 500px;
+    width: 60vh;
     border-style: solid;
     border-color: aqua;
 }
@@ -340,11 +333,11 @@ button {
 }
 
 .sandwich {
-    width: 300px;
+    width: 40vh;
 }
 
 .sandwiches {
-    width: 400px;
+    width: 50vh;
 }
 
 @-webkit-keyframes blinker {
