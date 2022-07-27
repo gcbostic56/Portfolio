@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "owl.carousel": "^2.3.4",
+    "webpack": "^5.73.0"
+  }
+}
