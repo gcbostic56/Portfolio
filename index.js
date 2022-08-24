@@ -8,6 +8,10 @@ document.addEventListener('DOMContentLoaded', (e)=>{
     }, 2000);
 });
 
+function toggleMobileMenu(menu) {
+    menu.classList.toggle("open");
+  }
+
 
 
 
