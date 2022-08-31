@@ -35,13 +35,12 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    background-image: linear-gradient(
-      112.1deg,
-      #232350 11.4%,
-      rgba(63, 76, 119, 1) 70.2%
-    );
+    background-color: black;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 10px;
   }
   #hamburger-icon ul li a {
     color: #fff;
@@ -406,13 +405,8 @@ h4 {
  {
   width:100%;
  }
- .footer {
-    
-    flex-direction: column;
- }
- .right-side-footer {
-    
- }
+ 
+ 
  #wrapper h1
  {
   font-size:30px;
@@ -439,10 +433,7 @@ h4 {
 }
 @media only screen and (min-width:400px) and (max-width:699px)
 {
-    .footer {
-        
-        flex-direction: column;
-    }
+    
     .web-container {
         display:flex;
         flex-direction: column;
@@ -487,9 +478,8 @@ h4 {
 }
 @media only screen and (min-width:100px) and (max-width:399px)
 {
-    .footer-name {
-        font-size: 14px;
-    }
+    
+    
     .web-container {
         display:flex;
         flex-direction: column;
@@ -534,8 +524,8 @@ h4 {
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
-        margin-right: 5%;
-        margin-left: 5%;
+        margin-right: 3%;
+        margin-left: 3%;
         padding-left: 1%;
         padding-right: 1%;
     }
@@ -547,7 +537,7 @@ h4 {
     }
     .placeholderimage {
         width: 100%;
-        height: 32vh;
+        height: 20vh;
     }
     .subtext {
         font-size: 15px !important;
@@ -562,10 +552,6 @@ h4 {
     .socialmedia li {
         display: inline;
         flex-direction: row;
-    }
-    .footer {
-        margin-bottom: 0;
-        flex-direction: column;
     }
  #wrapper
  {
@@ -740,6 +726,23 @@ h4 {
 }
 .footer-socials img {
     opacity: 0.8;
+}
+@media screen and (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+    }
+    .footer-name {
+        border-style: none;
+        padding-right: 0;
+    }
+    .footer-menu li {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .leftside {
+        width: 70%;
+    }
+    
 }
 .resume {
     text-align: center;
